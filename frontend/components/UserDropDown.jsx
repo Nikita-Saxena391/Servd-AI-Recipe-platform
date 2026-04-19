@@ -24,7 +24,7 @@ const UserDropDown = () => {
 
         {/* ✅ ADD THIS */}
         <UserButton.Link
-          label="AI Meal Planner"
+          label="Meal Planner"
           labelIcon={<CalendarDays size={16} />}
           href="/meal-planner"
         />
