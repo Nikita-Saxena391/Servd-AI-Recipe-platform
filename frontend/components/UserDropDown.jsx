@@ -1,7 +1,7 @@
 "use client";
 
 import { UserButton } from "@clerk/nextjs";
-import { Cookie, Refrigerator } from "lucide-react";
+import { Cookie, Refrigerator, CalendarDays } from "lucide-react";
 import React from "react";
 
 const UserDropDown = () => {
@@ -14,12 +14,21 @@ const UserDropDown = () => {
           href="/recipes"
         />
       </UserButton.MenuItems>
+
       <UserButton.MenuItems>
         <UserButton.Link
           label="My Pantry"
           labelIcon={<Refrigerator size={16} />}
           href="/pantry"
         />
+
+        {/* ✅ ADD THIS */}
+        <UserButton.Link
+          label="AI Meal Planner"
+          labelIcon={<CalendarDays size={16} />}
+          href="/meal-planner"
+        />
+
         <UserButton.Action label="manageAccount" />
       </UserButton.MenuItems>
     </UserButton>
