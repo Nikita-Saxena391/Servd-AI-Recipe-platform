@@ -45,7 +45,7 @@ const Header = async () => {
   className="hover:text-orange-600 transition-colors flex gap-1.5 items-center"
 >
   <CalendarDays className="w-4 h-4 text-orange-600" />
-  AI Meal Planner
+  Meal Planner
 </Link>
         </div>
         <div className="flex items-center space-x-4">
