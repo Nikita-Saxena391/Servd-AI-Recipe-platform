@@ -52,15 +52,9 @@ Optimized for mobile, tablet, and desktop devices.
 ### Utilities
 - React-PDF (Recipe export system)
 
+## System Architecture
 ---
-
-## 🏗️ System Architecture
-
 flowchart TD
-
-%% ======================
-%% Nodes
-%% ======================
 
 A[User Browser]
 
@@ -80,10 +74,6 @@ H[Unsplash API<br/>Food Images]
 
 I[Arcjet Security<br/>Rate Limiting + Bot Protection]
 
-%% ======================
-%% Connections
-%% ======================
-
 A --> B
 B --> C
 B --> D
@@ -98,21 +88,13 @@ D --> I
 G --> D
 H --> B
 
-%% ======================
-%% Styling
-%% ======================
-
-classDef frontend fill:#4F46E5,stroke:#ffffff,color:#ffffff,stroke-width:2px;
-classDef auth fill:#10B981,stroke:#ffffff,color:#ffffff,stroke-width:2px;
-classDef api fill:#F59E0B,stroke:#ffffff,color:#ffffff,stroke-width:2px;
-classDef cms fill:#EF4444,stroke:#ffffff,color:#ffffff,stroke-width:2px;
-classDef db fill:#0EA5E9,stroke:#ffffff,color:#ffffff,stroke-width:2px;
-classDef ai fill:#8B5CF6,stroke:#ffffff,color:#ffffff,stroke-width:2px;
-classDef security fill:#111827,stroke:#ffffff,color:#ffffff,stroke-width:2px;
-
-%% ======================
-%% Apply Styles
-%% ======================
+classDef frontend fill:#4F46E5,stroke:#fff,color:#fff;
+classDef auth fill:#10B981,stroke:#fff,color:#fff;
+classDef api fill:#F59E0B,stroke:#fff,color:#fff;
+classDef cms fill:#EF4444,stroke:#fff,color:#fff;
+classDef db fill:#0EA5E9,stroke:#fff,color:#fff;
+classDef ai fill:#8B5CF6,stroke:#fff,color:#fff;
+classDef security fill:#111827,stroke:#fff,color:#fff;
 
 class A,B frontend;
 class C auth;
@@ -121,3 +103,6 @@ class E cms;
 class F db;
 class G,H ai;
 class I security;
+
+## 🏗️ System Architecture
+
