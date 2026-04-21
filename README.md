@@ -55,3 +55,69 @@ Optimized for mobile, tablet, and desktop devices.
 ---
 
 ## 🏗️ System Architecture
+
+flowchart TD
+
+%% ======================
+%% Nodes
+%% ======================
+
+A[User Browser]
+
+B[Next.js 16 Frontend<br/>React 19 + Tailwind + shadcn/ui]
+
+C[Clerk Auth<br/>Google OAuth]
+
+D[API Layer<br/>Next.js Server Actions]
+
+E[Strapi CMS]
+
+F[(PostgreSQL<br/>Neon DB)]
+
+G[Google Gemini AI<br/>Recipe Generation + Vision]
+
+H[Unsplash API<br/>Food Images]
+
+I[Arcjet Security<br/>Rate Limiting + Bot Protection]
+
+%% ======================
+%% Connections
+%% ======================
+
+A --> B
+B --> C
+B --> D
+
+D --> E
+E --> F
+
+D --> G
+D --> H
+D --> I
+
+G --> D
+H --> B
+
+%% ======================
+%% Styling
+%% ======================
+
+classDef frontend fill:#4F46E5,stroke:#ffffff,color:#ffffff,stroke-width:2px;
+classDef auth fill:#10B981,stroke:#ffffff,color:#ffffff,stroke-width:2px;
+classDef api fill:#F59E0B,stroke:#ffffff,color:#ffffff,stroke-width:2px;
+classDef cms fill:#EF4444,stroke:#ffffff,color:#ffffff,stroke-width:2px;
+classDef db fill:#0EA5E9,stroke:#ffffff,color:#ffffff,stroke-width:2px;
+classDef ai fill:#8B5CF6,stroke:#ffffff,color:#ffffff,stroke-width:2px;
+classDef security fill:#111827,stroke:#ffffff,color:#ffffff,stroke-width:2px;
+
+%% ======================
+%% Apply Styles
+%% ======================
+
+class A,B frontend;
+class C auth;
+class D api;
+class E cms;
+class F db;
+class G,H ai;
+class I security;
