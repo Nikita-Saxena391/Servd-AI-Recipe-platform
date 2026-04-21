@@ -53,7 +53,7 @@ Optimized for mobile, tablet, and desktop devices.
 - React-PDF (Recipe export system)
 
 ## System Architecture
----
+```mermaid
 flowchart TD
 
 A[User Browser]
@@ -103,6 +103,4 @@ class E cms;
 class F db;
 class G,H ai;
 class I security;
-
-## 🏗️ System Architecture
-
+```
