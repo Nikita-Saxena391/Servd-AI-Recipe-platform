@@ -104,3 +104,26 @@ class F db;
 class G,H ai;
 class I security;
 ```
+
+
+## 🚀 Future Enhancements
+
+### 🧠 Advanced AI Capabilities
+- Multi-image understanding (scan full kitchen, not just one image)
+- Voice-based cooking assistant (real-time step guidance while cooking)
+- Context-aware recipes (adjust based on time of day, region, or user habits)
+- Fine-tuning with user feedback to improve recipe accuracy over time  
+- Built on Google Gemini AI capabilities  
+
+### 🥗 Nutrition & Health Intelligence
+- Macro & micronutrient breakdown per recipe  
+- AI-based diet planning (keto, vegan, diabetic-friendly)  
+- Integration with fitness apps like Google Fit or Apple Health  
+- Allergy detection and safety warnings  
+
+
+
+
+
+
+
