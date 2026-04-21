@@ -1,4 +1,4 @@
-# 🍳 Servd — AI Recipe Platform SaaS
+# 🍳 Servd — AI Recipe Platform
 
 Servd is a **full-stack AI-powered recipe platform** that helps users turn available ingredients into personalized recipes using generative AI. It combines modern web technologies, AI integration, and a scalable backend to deliver a seamless cooking experience.
 
